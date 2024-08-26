@@ -1,4 +1,32 @@
 {
-  "compilerOptions": {},
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "paths": {
+      "@configs/*": ["./src/configs/*"],
+      "@entities/*": ["./src/database/entities/*"],
+      "@repositories/*": ["./src/database/repositories/*"],
+      "@services/*": ["./src/services/*"],
+      "@components/*": ["./src/components/*"],
+      "@routes/*": ["./src/routes/*"],
+      "@screens/*": ["./src/screens/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@themes/*": ["./src/themes/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@types/*": ["./src/@types/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@contexts/*": ["./src/contexts/*"],
+      "@database/*": ["./src/database/*"]
+
+    }
+  },
   "extends": "expo/tsconfig.base"
 }
