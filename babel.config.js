@@ -3,6 +3,7 @@ module.exports = function(api) {
   return {
     presets: ['babel-preset-expo'],
     plugins: [
+      'babel-plugin-transform-typescript-metadata',
       ['@babel/plugin-proposal-decorators', {legacy: true}],
       [
         'module-resolver',
@@ -16,7 +17,7 @@ module.exports = function(api) {
             '.json'
           ],
           alias: {
-            "react-native-sqlite-storage": "react-native-quick-sqlite",
+            // "react-native-sqlite-storage": "react-native-quick-sqlite",
             "@repositories": ["./src/database/repositories"],
             "@entities": ["./src/database/entities"],
             "@services": ["./src/services"],
