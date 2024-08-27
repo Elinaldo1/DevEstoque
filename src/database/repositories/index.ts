@@ -4,5 +4,11 @@ import { Category } from "@entities/Category";
 import { Unit } from "@entities/Unit";
 
 const productRepository = datasource.getRepository(Product);
-const categoriesRepository = datasource.getRepository(Category);
+const categoryRepository = datasource.getRepository(Category);
 const unitRepository = datasource.getRepository(Unit);
+
+export {
+    productRepository,
+    categoryRepository,
+    unitRepository,
+}
