@@ -14,7 +14,7 @@ class Product extends BaseEntity {
     onDelete: "SET NULL", 
     onUpdate: "CASCADE" 
   })
-  unit: Category;
+  unit: Unit;
 
   @ManyToOne( tye => Category, { 
     onDelete: "SET NULL", 
