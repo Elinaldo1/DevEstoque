@@ -1,9 +1,9 @@
 import * as entities from "@entities/index";
-import * as SQLite from "expo-sqlite";
+import * as SQLite from "expo-sqlite/legacy";
 import { DataSource } from "typeorm";
 
 const datasource = new DataSource({
-    database: "devestoque",
+    database: "devestoque.db",
     entities: entities,
     // location: ".",
     logging: ['query', 'migration'],
