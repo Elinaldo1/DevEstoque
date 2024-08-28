@@ -24,7 +24,8 @@
       "@types/*": ["./src/@types/*"],
       "@utils/*": ["./src/utils/*"],
       "@contexts/*": ["./src/contexts/*"],
-      "@database/*": ["./src/database/*"]
+      "@database/*": ["./src/database/*"],
+      "@interfaces/*": ["./src/interfaces/*"]
 
     }
   },

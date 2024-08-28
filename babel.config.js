@@ -33,7 +33,8 @@ module.exports = function(api) {
             "@hooks": ["./src/hooks"],
             "@themes": ["./src/themes"],
             "@assets": ["./src/assets"],
-            "@database": ["./src/database"]
+            "@database": ["./src/database"],
+            "@interfaces": ["./src/interfaces"]
           },
         },
       ],
