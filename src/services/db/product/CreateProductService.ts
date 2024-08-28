@@ -1,6 +1,6 @@
 import { Product } from "@entities/Product";
+import { ProductRequest } from "@interfaces/product/ProductRequest";
 import { productRepository } from "@repositories/index";
-import { ProductRequest } from "src/interfaces/product/ProductRequest";
 
 
 class CreateProductServive {
